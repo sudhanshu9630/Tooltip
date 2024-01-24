@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d3eee1;   
+  background-size: 106%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 99vw;
+  height: 99vh;
+}
+
+.btn-position{
+  margin-left: 1%;
+  width: 80%;
+  margin-left: none;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grp-name{
+  margin-top: 20px;
+  font-style: Cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn{
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background: rgba(228, 232, 234, 0.922);
+}
+
+.active{
+  background-color:rgba(230, 74, 74, 0.916) ;
+  height: 70%;
+  width: 10%;
+  margin-top: 1.1%;
+  border-radius: 15px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#button-container{
+  width: 23%;
+  height: 15%;
+  margin-left: 45%;
+  margin-top: 20%;
+}
+
+.hover-btn{
+  height: 50%;
+  width: 50%;
+  font-size: 1rem;
+
+}
+.hover-btn:hover{
+  background-color:aqua;
+}
+
+.top{
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: -3%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(139, 235, 141);
+  
+}
+
+.right{
+    height: 30%;
+    width: 50%;
+    margin-top:-18%;
+    margin-left: 80%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(139, 235, 141);
+}
+
+.down{
+  height: 30%;
+  width: 50%;
+  margin-top: 15%;
+  margin-left: -3%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(139, 235, 141);
+}
+
+.left{
+  height: 30%;
+  width: 50%;
+  margin-top:-17%;
+  margin-left: -80%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(139, 235, 141);
+}
+
+
